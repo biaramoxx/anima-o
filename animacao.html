@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação</title>
+
+<style>
+
+body{
+ background-color: rgb(202, 145, 185);
+}
+
+#texto{
+  text-align: center;
+  color: rgb(126, 19, 126);
+  font-size: 45px;
+
+}
+
+#teste{
+text-align: center;
+color: rgb(92, 9, 92);
+margin-right: 18px;
+margin-left: 20px;
+font-size: 23px;
+}
+
+#coracao{
+margin-left: 530px;
+height: 400px;
+animation: coracao 2s linear infinite;
+animation-direction: reverse;
+ animation-fill-mode: forwards;
+}
+
+
+
+@keyframes coracao {
+  0%{
+  opacity: 1;
+  }   
+50%{
+opacity: 0.2;
+}
+ 100%{
+opacity: 1;
+}
+
+} 
+
+
+</style>
+
+
+</head>
+<body>
+<h1 id="texto">Descodificadas</h1>
+
+<h2 id="teste">Eu amo tecnologia!</h2>
+
+<section>
+    <img src="https://images.freeimages.com/vme/images/3/9/393819/pink_heart_preview" id="coracao">
+</section>
+
+</body>
+</html>
